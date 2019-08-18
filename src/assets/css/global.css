@@ -2,9 +2,10 @@
 html,
 body,
 #app {
-    height : 100%;
-    margin : 0;
-    padding: 0;
+    height   : 100%;
+    margin   : 0;
+    padding  : 0;
+    min-width: 1366px;
 }
 
 .el-breadcrumb {
@@ -21,4 +22,8 @@ body,
 
 .el-pagination {
     margin-top: 15px;
+}
+
+.el-tree-node__label {
+    margin-left: 6px;
 }
